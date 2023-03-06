@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: weather
+    database: GLOBAL_WEATHER__CLIMATE_DATA_FOR_BI  
+    schema: standard_tile  
+    tables:
+      - name: climatology_day
+      - name: forecase_day
+      - name: history_day
