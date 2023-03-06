@@ -6,5 +6,5 @@ sources:
     schema: standard_tile  
     tables:
       - name: climatology_day
-      - name: forecase_day
+      - name: forecast_day
       - name: history_day
