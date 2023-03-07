@@ -36,3 +36,12 @@ models:
     # Config indicated by + and applies to all files under models/example/
     staging:
       +materialized: view
+
+# TODO: data types
+# seeds:
+#   dbt_template: # you must include the project name
+#     warehouse_locations:
+#       +column_types:
+#         NAMELSAD_ZCTA5_20: varchar(11)
+#         CLASSFP_ZCTA5_20: varchar()
+
