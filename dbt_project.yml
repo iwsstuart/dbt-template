@@ -45,3 +45,4 @@ models:
 #         NAMELSAD_ZCTA5_20: varchar(11)
 #         CLASSFP_ZCTA5_20: varchar()
 
+on-run-end: "{{ dbt_artifacts.upload_results(results) }}"
